@@ -1,0 +1,87 @@
+
+.bubble{
+	border-radius: 10px;
+	position:absolute;
+	width:30px;
+	height:30px;
+}
+.next{
+	text-align: center;
+}
+.next > p{
+	font-size: 30px;
+	color:#FFFFFF;
+	font-family:微软雅黑;
+}
+
+.go:hover,.reset:hover{	
+	transform:scale(1.05,1.05);
+	color: rgb(10,10,10);
+}
+
+.playground,.next{
+	width: 510px;
+	height: 510px;
+	position: absolute;
+	top:10px;
+	left:10px;
+	border-radius: 20px;
+}
+
+.playground,.score,.level,.me,.next{
+background:rgba(92,92,92,.7);
+}
+
+
+.word{
+
+}
+.score{
+	position: absolute;
+	top:10px;
+	left: 530px;
+	border-radius: 20px;
+	width: 400px;
+	height:163px;
+	text-align: center;
+}
+
+.level{
+	position: absolute;
+	top:183px;
+	left: 530px;
+	border-radius: 20px;
+	width: 400px;
+	height:163px;
+	text-align: center;
+}
+
+.me{
+	position: absolute;
+	top:356px;
+	left: 530px;
+	border-radius: 20px;
+	width: 400px;
+	height:163px;
+	text-align: center;
+
+}
+
+#figure,#word{
+	font-size: 30px;
+	color:#FFFFFF;
+	font-family:微软雅黑;
+}
+
+.bg{
+	position: relative;
+	width:940px;
+	height: 530px;
+
+	filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')";  
+	-moz-background-size:no-repeat;  
+	-webkit-background-size:no-repeat;
+    	background-size:no-repeat;
+    	background-size:cover;
+}
+
